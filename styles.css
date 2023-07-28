@@ -1,0 +1,49 @@
+  @import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@1,6..12,600&display=swap');
+.topo {
+background-image: url("img/sitetopo.jpg");
+background-size: 100%;
+height: 100vh;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.topo h1{
+    padding: 50px;
+    font-family: 'Borel', cursiva;
+	background-image: -webkit-linear-gradient(112deg, #d166b1 13%, #ffffff 80%);
+	-webkit-animation: animatedBackground 10s linear infinite both;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: #0000;
+}
+
+@-webkit-keyframes animatedBackground {
+	0% { background-position: 0 0 }
+	100% { background-position: 500px 0 }
+}
+.caixa {
+    background-color: rgba(102, 99, 101, 0.5);
+}
+
+.imgCard {
+    width: 400px;
+    border-radius: 50% !important;
+    border: #d166b1 solid 2px;
+}
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 10px;
+    justify-content: baseline;
+    align-items: center;
+    margin-right: 59px;
+}
+p {
+font-family: 'Nunito Sans';
+padding-left: 15px;
+padding-right: 30px;
+}
