@@ -12,7 +12,7 @@ align-items: center;
 
 .topo h1{
     padding: 50px;
-    font-family: 'Borel', cursiva;
+    font-family: 'Roboto Condensado', cursiva;
 	background-image: -webkit-linear-gradient(112deg, #d166b1 13%, #ffffff 80%);
 	-webkit-animation: animatedBackground 10s linear infinite both;
 	background-clip: text;
@@ -46,4 +46,40 @@ p {
 font-family: 'Nunito Sans';
 padding-left: 15px;
 padding-right: 30px;
+}
+.vertical-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+}
+.card {
+    width: 80vw;
+    margin-top: 10px;
+}
+.card-title {
+    background-color: rgb(110, 104, 104);
+    color: #d8c303;
+    text-align: center;
+    padding: 3px;
+    height: 70px;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+.card-img-top {
+    background-color: rgb(110, 104, 104);
+    margin-top: -8px;
+}
+.card-body {
+    text-align: center;
+
+}
+.linha {
+    background-color: #c70bd8a2;
+    color: #ffffff;
+    padding: 25px;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
